@@ -23,7 +23,7 @@
             modestbranding="1"
             allowfullscreen
           ></iframe>
-          <a href="#" class="form__submit">Начать регистрацию</a>
+          <a href="#" class="form__submit" @click="kek()">Начать регистрацию</a>
         </div>
         <p class="form__safety">Ваши данные под защитой.</p>
       </form>
@@ -35,6 +35,11 @@
 export default {
   name: "",
   props: {},
+  methods: {
+    kek() {
+      document.getElementById("reg").click();
+    },
+  },
 };
 </script>
 

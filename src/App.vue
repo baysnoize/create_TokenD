@@ -34,7 +34,7 @@ body {
 }
 .header {
   background: url(assets/image/background.png);
-  height: 800px;
+  height: 770px;
 }
 p {
   margin: 0;
