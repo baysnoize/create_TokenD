@@ -6,12 +6,11 @@ export default class TokenD {
     const apiCaller = await ApiCaller.getInstanceWithPassphrase(
       "http://localhost:8060/"
     );
-    const WManager = new WManager(apiCaller);
+    const WManager = new WalletsManager(apiCaller);
     return WManager;
   };
 }
 
 CreateWallet = async (email, password) => {
-  const apiCaller = await this.WManager();
-  
+  const apiCaller = await this.WManager()
 };
